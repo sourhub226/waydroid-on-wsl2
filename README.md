@@ -66,14 +66,6 @@ Install Waydroid
     curl -s https://repo.waydro.id | sudo bash
     sudo apt install waydroid
 
-Configure Waydroid to only use software rendering (SwiftShader)
-
-    sudo nano /var/lib/waydroid/waydroid_base.prop
-
-        ro.hardware.gralloc=default
-        ro.hardware.egl=swiftshader
-
-
 Run weston
 
     weston --backend=wayland-backend.so
