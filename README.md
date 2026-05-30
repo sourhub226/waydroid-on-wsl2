@@ -73,9 +73,6 @@ Configure Waydroid to only use software rendering (SwiftShader)
         ro.hardware.gralloc=default
         ro.hardware.egl=swiftshader
 
-Make weston detect gpu for some acceleration
-
-    export GALLIUM_DRIVER=d3d12
 
 Run weston
 
